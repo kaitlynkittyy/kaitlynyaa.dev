@@ -1,0 +1,12 @@
+html {
+    background-image: url("./bg.png");
+}
+
+#container .box-1 {
+    display: flexbox;
+    background-color: #ffd6d6;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.05rem rgba(0, 0, 0, 0.1);
+    width: 10rem;
+}

@@ -1,16 +1,24 @@
 ---
-
+import "../styles/index.css";
+import NavBar from "./components/NavBar.astro";
+import { ViewTransitions } from 'astro:transitions';
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Kait's Cat Corner</title>
+		<ViewTransitions />
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<NavBar/>
+		<div id="container">
+			<div class="box-1">
+				<p>
+					Hi, I'm Kaitlyn!
+				</p>
+			</div>
+		</div>
 	</body>
 </html>
